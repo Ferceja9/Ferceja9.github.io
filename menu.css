@@ -1,0 +1,92 @@
+body {
+    background-color: #F5DEB3; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.titulo-menu {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3em; 
+    text-align: center; 
+    color: #8B4513; 
+    margin: 20px 0; 
+}
+
+.invitacion {
+    font-family: 'Pacifico', cursive;
+    color: #D45D0D;
+    text-align: center; 
+    margin-top: -13px; 
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.arena-titulo {
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-left: 900px; 
+    margin-top: -30px;
+}
+
+.menu-carrusel {
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    padding: 10px; 
+    gap: 10px; 
+    margin-left: 50px; 
+}
+
+.menu-carrusel img {
+    width: 300px; 
+    height: auto; 
+    flex-shrink: 0; 
+    scroll-snap-align: start; 
+    border-radius: 8px; 
+}
+
+.platillos-mas-pedidos {
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 50px; 
+    margin-top: 30px; 
+}
+
+.columna {
+    width: 48%; 
+}
+
+.columna h2 {
+    font-family: 'Montserrat', sans-serif; 
+    color: #8B4513; 
+    margin-bottom: 20px; 
+}
+
+.platillo {
+    display: flex; 
+    margin-bottom: 20px; 
+    align-items: center; 
+}
+
+.imagen-platillo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 8px; 
+}
+
+.descripcion-platillo h3 {
+    font-family: 'Pacifico', cursive; 
+    color: #D45D0D; 
+    margin: 0; 
+}
+
+.descripcion-platillo p {
+    font-family: 'Montserrat', sans-serif; 
+    color: #333; 
+    text-align: justify;
+}

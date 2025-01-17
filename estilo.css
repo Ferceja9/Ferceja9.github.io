@@ -1,0 +1,387 @@
+body {
+    background-color: #F5DEB3;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-main-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header img {
+    width: 100%; /* Cambié de calc(100% - 40px) a 100% para que se adapte al ancho de la pantalla */
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.restaurant-info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130px;
+    color: #7B3F00;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.restaurant-info h1 {
+    font-family: "Microsoft PhagsPa", sans-serif;
+    color: #7B3F00;
+}
+
+.restaurant-info p.descripcion {
+    font-family: 'Allura', cursive;
+    margin-top: 10px;
+    font-size: 1.7em;
+    color: #F5E1A6;
+    font-weight: 100;
+}
+
+.ubicacion {
+    margin-top: -25px;
+}
+
+footer {
+    background-color: #F5DEB3;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.info-container {
+    position: relative;
+    left: 39px;
+    bottom: 10px;
+    background-color: #b5651d;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: #7B3F00;
+    font-family: 'Pacifico', cursive;
+    z-index: 1;
+    width: 300px;
+    min-height: 100px;
+    height: 230px;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+
+.info-container .logo {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.info-container .sand-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
+
+.texto-rs {
+    font-family: 'Pacifico', cursive;
+    color: #1E90FF;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+.menu-image {
+    width: 47%;
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 55px;
+    transform: translateY(-50%);
+    border-radius: 8px;
+}
+
+.menu-title {
+    font-family: 'Pacifico', cursive;
+    color: #FFDAB9;
+    font-size: 2.0em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+    position: relative;
+    margin: 0;
+}
+
+.menu-invitation {
+    font-family: 'Microsoft PhagsPa', sans-serif;
+    color: #FFDAB9;
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-top: 1px;
+    position: relative;
+    top: -10px;
+}
+
+.ver-menu-button {
+    background-color: #8B4513;
+    color: #FFFFF0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: -80%;
+    margin-bottom: 10px;
+}
+
+.ver-menu-button:hover {
+    background-color: #FF8C00;
+    transition: background-color 0.3s ease;
+}
+
+.info-container {
+    background-color: #b5651d;
+    padding: 20px 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 230px;
+    color: #7B3F00;
+    margin-right: 20px;
+}
+
+.menu-section {
+    background-color: #b5651d;
+    padding: 20px 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 230px;
+    color: #7B3F00;
+    margin-left: 85px;
+    margin-top: -10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+
+.contenedor-de-ambiente {
+    background-color: #b5651d;
+    padding: 20px 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 230px;
+    margin-left: 85px;
+    margin-top: -10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.container-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-de-ambiente h2 {
+    font-family: 'Pacifico', cursive;
+    color: #FFDAB9;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.subtitulo {
+    font-family: 'Microsoft PhagsPa', sans-serif;
+    color: #FFDAB9;
+    text-align: center;
+    font-size: 1.0em;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.imagen-evento {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+.ver-galeria-button {
+    background-color: #8B4513;
+    color: #FFFFF0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.ver-galeria-button:hover {
+    background-color: #FF8C00;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacto-section h2 {
+    color: #4B2F1A;
+    font-size: 12px;
+}
+
+.contacto-container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    position: fixed;
+    top: -15px;
+    right: 20px;
+    background-color: transparent;
+}
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .logo {
+        width: 150px;
+    }
+    
+    .restaurant-info h1 {
+        font-size: 1.8em;
+    }
+
+    .restaurant-info p.descripcion {
+        font-size: 1.4em;
+    }
+
+    .menu-image {
+        width: 80%;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-container, .menu-section, .contenedor-de-ambiente {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .container-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-title {
+        font-size: 1.5em;
+    }
+
+    .ver-menu-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .subtitulo {
+        font-size: 1.2em;
+    }
+
+    .ver-galeria-button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .restaurant-info p.descripcion {
+        font-size: 1.2em;
+    }
+
+    .menu-title {
+        font-size: 1.4em;
+    }
+
+    .social-media a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ver-menu-button, .ver-galeria-button {
+        font-size: 13px;
+    }
+}

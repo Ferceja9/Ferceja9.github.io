@@ -1,0 +1,135 @@
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #f5deb3;
+  color: #A0522D;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.galeria-header {
+  border: 3px double #8B4513;  
+  padding: 5px 15px; 
+  margin: 10px 0; 
+  text-align: center; 
+  background-color: #DEB887; 
+  border-radius: 4px; 
+  font-size: 14px; 
+  width: 30%; 
+  min-width: 150px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.galeria-header h2 {
+  font-size: 35px; 
+  color: #8B4513; 
+  margin-top: 10px;
+}
+
+.galeria-header p{
+  font-size: 20px; 
+  color: #8B4513; 
+  margin-top: -40px;
+}
+
+
+.seccion {
+  margin: 30px 0; 
+  padding: 10px 20px;
+  background-color: #D2691E; 
+  border-radius: 8px;
+  position: relative; 
+  width: 900px;
+}
+
+
+#atardeceres {
+  margin-left: 10%; 
+}
+
+#clientes {
+  margin-left: -10%; 
+}
+
+#eventos {
+  margin-left: 10%; 
+}
+
+#platillos {
+  margin-left: -10%; 
+ 
+}
+
+#personal {
+  margin-left: 10%; 
+}
+
+
+.seccion h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #FFDAB9;
+  font-family: 'Playfair Display', serif;
+  position: relative; 
+  top: -35px; 
+  margin-bottom: 10px; 
+}
+
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+ 
+}
+#platillos .contenedor-imagenes img {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+#personal .contenedor-imagenes img {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+#eventos .contenedor-imagenes img {
+  width: 200px;  
+  height: auto; 
+  margin-right: 10px;  
+}
+#clientes .contenedor-imagenes img {
+  width: 200px;  
+  height: auto;  
+  margin-right: 10px; 
+}
+#atardeceres .contenedor-imagenes img {
+  width: 200px; 
+  height: auto;  
+  margin-right: 10px;  
+}
+
